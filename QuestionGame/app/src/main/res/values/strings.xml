@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">QuestionGame</string>
+    <string name="Pregunta">TextView</string>
+    <string name="string_pregunta">pregunta</string>
 </resources>

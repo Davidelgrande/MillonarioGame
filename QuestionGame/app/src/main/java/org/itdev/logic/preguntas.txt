@@ -1,0 +1,10 @@
+1, 1, A quien se le atribuye la frase: Yo soy yo  y mis circunstancias, Pipe Pelaez, Pablo Bozodelulo, Ricardo Arjona, Ortega y Gasset, Ortega y Gasset
+1, 2, Quien interpreta la famosa cancion "Procura", Marie Cure, Hector Lavoe, Chichi Peralta, Afaz Natural, Chichi Peralta
+1, 3, Cuanto es el seno 90 grados, 1, 0, -1, 0.5, 1
+1, 4, Cuanto suman los ángulos de un triangulo, 180, 60, 360, 90, 180
+1, 5, Cual es el ave insignia de los juegos del hambre, fenix, el penyair, sinsajo, mirlo, sinsajo
+2, 6, Cual es el significado de "Peronia seculá seculorum", Cuchara cucharona,Por los siglos de los siglos, Hagale que yo se lo plagio, Si te vi no me acuerdo,Por los siglos de los siglos,
+2, 7, Quien descubrio la selectividad de las especies, Charles Darwin, Harry Potter, Pato Donald, Dua Lipa, Charles Darwin 
+2, 8, Quien descubrio América, Colombo, Cristobal Colon, Camilla Cabello, Marilyn Monrrou, Cristobal Colon 
+2, 9, Promotor de la moral como ley universal, y conocido por su escrito de la Ilustracion, Emmanuel Kant, Shaggy, Sean Paul, Pikachu, Emmanuel Kant
+2, 10, Con que método se puede consumir una api de preguntas, REST, POST, GET, DELETE, POST
