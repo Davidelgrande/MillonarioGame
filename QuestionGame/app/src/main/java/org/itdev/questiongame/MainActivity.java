@@ -20,10 +20,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         diccionary = new Diccionary();
-       questions = diccionary.readFile(this);
+       //questions = diccionary.readFile(this);
        //String n =  diccionary.readFromFile(this);
-        textView = findViewById(R.id.pregunta);
-        textView.setTextColor(Color.BLACK);
-        textView.setText(questions.get(0).getQuestion());
+       // textView = findViewById(R.id.pregunta);
+       // textView.setTextColor(Color.BLACK);
+       // textView.setText(questions.get(0).getQuestion());
     }
 }

@@ -32,8 +32,21 @@ public class Diccionary {
             "2, 10, Con que método se puede consumir una api de preguntas, REST, POST, GET, DELETE, POST\n";
     public Diccionary() {
         questions = new ArrayList<>();
+       Xd();
+    }
+
+    private void Xd(){
+        String[] vec =data.split("\n");
+        System.out.println(data.split("\n").length+"  <-----");
+
+        for(int i=0;i< vec.length;i++){
+            String lin[] = vec[i].split(",");
+            System.out.println(lin[0]+"  "+lin[6]+"  <-------");
+        }
+
 
     }
+
     /*
     public String readFromFile(Context context) {
 
@@ -66,10 +79,6 @@ public class Diccionary {
     } */
     public String[] split ()
     {
-        String linea[] = data.split("\n");
-        for (int i = 0; i < linea.length; i++) {
-            linea1= linea[i].split(",");
-        }
 
 
         return linea1;
@@ -86,9 +95,19 @@ public class Diccionary {
     linea1 = split();
 
 
+        String linea[] = data.split("\n");
+        for (int i = 0; i < linea.length; i++) {
+            linea1= linea[i].split(",");
+            int level = Integer.parseInt(linea1[0]);
+            int  id= Integer.parseInt(linea1[1]);
+            this.question = new Question();
+            question.setId(id);
+            question.setQuestion(linea1[2]);
 
-        question = new Question(Integer.parseInt(linea1[0]), Integer.parseInt(linea1[1]), linea1[2], linea1[3], linea1[4], linea1[5], linea1[6], linea1[7]);
-        questions.add(question);
+            questions.add(question);
+        }
+
+
  /*
         while ((linea = br.readLine())!= null) {
 

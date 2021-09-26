@@ -11,6 +11,11 @@ public class Question {
      private String answer;
      private boolean Checker;
 
+     public Question()
+     {
+
+     }
+
     public Question(int level, int id, String question, String option1, String option2, String option3, String option4, String answer) {
         this.level = level ;
         this.id = id;
