@@ -27,8 +27,8 @@ public class Diccionary {
             "1, 5, Cual es el ave insignia de los juegos del hambre, fenix, el penyair, sinsajo, mirlo, sinsajo\n" +
             "2, 6, Cual es el significado de \"Peronia seculá seculorum\", Cuchara cucharona,Por los siglos de los siglos, Hagale que yo se lo plagio, Si te vi no me acuerdo,Por los siglos de los siglos,\n" +
             "2, 7, Quien descubrio la selectividad de las especies, Charles Darwin, Harry Potter, Pato Donald, Dua Lipa, Charles Darwin \n" +
-            "2, 8, Quien descubrio América, Colombo, Cristobal Colon, Camilla Cabello, Marilyn Monrrou, Cristobal Colon \n" +
-            "2, 9, Promotor de la moral como ley universal, y conocido por su escrito de la Ilustracion, Emmanuel Kant, Shaggy, Sean Paul, Pikachu, Emmanuel Kant\n" +
+            "2, 8, Quien descubrio América, Colombo, Cristobal Colon, arilyn Monrrou, Cristobal Colon \n" +
+            "2, 9, Promotor de la moral como ley universal, y conocido por su escrito de la IlustraciCamilla Cabello, Mon, Emmanuel Kant, Shaggy, Sean Paul, Pikachu, Emmanuel Kant\n" +
             "2, 10, Con que método se puede consumir una api de preguntas, REST, POST, GET, DELETE, POST\n";
     public Diccionary() {
         questions = new ArrayList<>();
@@ -37,14 +37,11 @@ public class Diccionary {
 
     private void Xd(){
         String[] vec =data.split("\n");
-        System.out.println(data.split("\n").length+"  <-----");
-
-        for(int i=0;i< vec.length;i++){
+        for(int i=0;i< vec.length;i++) {
             String lin[] = vec[i].split(",");
-            System.out.println(lin[0]+"  "+lin[6]+"  <-------");
+           question = new Question(Integer.parseInt(lin[0].toString()),Integer.parseInt(lin[1].toString()),lin[2],lin[3],lin[4],lin[5],lin[6],lin[7]);
+           System.out.println(question.getQuestion());
         }
-
-
     }
 
     /*
